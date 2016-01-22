@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,33 @@
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/application.css">
 
+		<style>
+			#top-nav {
+				width: 100%;
+				background-color: rgb(51, 41, 20);
+				border-top: 1px solid rgba(128, 128, 128, 0.35);
+			}
+
+			#top-nav a {
+				color: #DAD0D0;
+			}
+
+			#top-nav ul {
+				margin: 0.5em 0; 
+				font-size: 17px;
+			}
+
+			#top-nav li {
+				padding-left: 0.9em;
+    		padding-right: 0.9em;
+			}
+
+			#top-nav a:hover {
+				color: #F1DB3F;
+				text-decoration: none;
+			}
+		</style>
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -18,6 +45,33 @@
 		<![endif]-->
 	</head>
 	<body>
+		<header style="width: 100%;background-color: rgb(51, 41, 20);">
+      <div class="container"><h1 style="
+      margin: 25px 0;
+      color: #fff;
+      font-weight: 500;
+      font-size: 28px;
+             "><span style="color: #F1DB3F;">Р</span>ейтинговое <span style="color: #F1DB3F;">И</span>нформационное <span style="color: #F1DB3F;">А</span>генство <span style="
+      text-transform: uppercase;
+      font-size: 14px;
+      display: block;
+      border-top: 1px solid rgba(255, 255, 255, 0.36);
+      padding-top: 2px;
+  ">Адвокатов и Адвокатских образований</span></h1></div>  
+    </header>
+
+    <nav id="top-nav">
+	  	<div class="container">
+		    <ul class="list-inline">
+		      <li><a href="#">Главная</a></li>
+		  		<li><a href="#">Содержание </a></li>
+		  		<li><a href="#">Адвокатура</a></li>
+		  		<li><a href="#">Доверителям</a></li>
+				  <li><a href="#">Адвокатам</a></li>
+		    </ul>
+		  </div>
+	  </nav>
+
 		<div class="container">
       <div class="row" style="margin-top: 20px;">
           <div class="col-md-12 hidden-xs hidden-sm">
